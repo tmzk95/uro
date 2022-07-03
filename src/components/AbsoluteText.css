@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+
+.text {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: x-large;
+  color: #aaa;
+  transform: rotate(8deg);
+  position: absolute;
+  margin-left: -1100px;
+  margin-top: 50px;
+  margin-right: 40px;
+}

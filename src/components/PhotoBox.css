@@ -1,0 +1,26 @@
+.photoBox {
+}
+
+.photoImage {
+  height: 245px;
+  width: 245px;
+  transition-duration: 0.5s;
+  /* outline: 2px solid #aaa; */
+  object-fit: cover;
+  display: block;
+}
+
+.photoImage:hover {
+  cursor: pointer;
+}
+
+.photoImageBig {
+  max-height: 80vh;
+  max-width: 80vw;
+  display: block;
+}
+
+.photoModalContainer {
+  padding: 4px;
+  margin-bottom: 0;
+}

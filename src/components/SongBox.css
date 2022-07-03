@@ -1,0 +1,38 @@
+.songBox {
+  width: 180px;
+  margin-top: 15px;
+}
+
+.songImage {
+  width: 180px;
+  height: 180px;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+  outline: 2px solid #aaa;
+  outline-offset: 3px;
+  object-fit: cover;
+}
+
+.songImage:hover {
+  filter: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.songTitle {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.songSubtitle {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.subtitleSecondary {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #999;
+}

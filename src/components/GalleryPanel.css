@@ -1,0 +1,50 @@
+.galleryPanel {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.albumTitle {
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition-duration: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.albumTitle:hover {
+  background: #eee;
+  cursor: pointer;
+  margin-left: 20px;
+  transition-duration: 0.3s;
+}
+
+.albumSelected {
+  margin-bottom: -45px;
+  transition-duration: 0.3s;
+}
+
+.albumSelected .albumHeader {
+  font-weight: 600;
+  font-size: 50px;
+  transition-duration: 0.3s;
+}
+
+.albumHeader {
+  text-align: left;
+}
+
+.albumTitle:hover .albumHeader {
+  font-weight: 600;
+}
+
+.albumSelected .albumSubtitle {
+  display: none;
+}
+
+.albumSubtitle {
+  font-weight: 300;
+  color: #999;
+}

@@ -1,0 +1,28 @@
+.calendarModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.calendarDayTooltip {
+  position: absolute;
+  text-align: left;
+  font-weight: 300px;
+  margin-left: 60px;
+  background-color: #555;
+  padding: 15px;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transform: scaleY(0);
+}
+
+.calendarDay:hover .calendarDayTooltip {
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transform: scaleY(1);
+}

@@ -1,0 +1,25 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.modal {
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1001;
+  transform: translate(-50%, -50%);
+}

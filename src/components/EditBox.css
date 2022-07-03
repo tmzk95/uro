@@ -1,0 +1,19 @@
+.editBox {
+}
+
+.textArea {
+  width: 485px;
+  max-width: 485px;
+  min-width: 485px;
+  border: 2px solid #eee;
+  color: #888;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.textArea:focus {
+  border: 2px solid #ddd;
+  color: #444;
+  outline: none;
+}

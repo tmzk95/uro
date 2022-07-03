@@ -1,0 +1,36 @@
+.tag {
+  padding: 4px 6px;
+  margin: 4px;
+  font-size: small;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.blueBcg {
+  background-color: #3a6b7e;
+}
+
+.greenBcg {
+  background-color: #2a9d8f;
+}
+
+.yellowBcg {
+  background-color: #e9c46a;
+}
+
+.orangeBcg {
+  background-color: #f4a261;
+}
+
+.redBcg {
+  background-color: #e76f51;
+}
+
+.grayBcg {
+  background-color: #888;
+}
+
+.darkGrayBcg {
+  background-color: #555;
+}

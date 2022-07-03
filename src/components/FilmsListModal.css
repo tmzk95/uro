@@ -1,0 +1,19 @@
+.filmsModalContainer {
+  padding: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.filmsListModal {
+  overflow-y: scroll;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  gap: 3px;
+  border-radius: 3px;
+}
+
+.disabled {
+  color: #bbb;
+}

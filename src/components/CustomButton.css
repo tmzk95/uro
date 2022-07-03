@@ -1,0 +1,12 @@
+.customButton {
+  font-size: small;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.customButton:hover {
+  transition-duration: 0.3s;
+  cursor: pointer;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
+}

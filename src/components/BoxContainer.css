@@ -1,0 +1,9 @@
+.boxContainer {
+  padding: 30px 15px;
+  padding-bottom: 40px;
+  margin: 10px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}

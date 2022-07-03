@@ -1,0 +1,22 @@
+.todo {
+  padding: 10px 10px;
+  background-color: #fafafa;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+  transition-duration: 0.3s;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo:hover {
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+}
